@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Premium pet supplies and essentials delivered across the USA.">
+  <title>HappyPaws Pet Supply Co.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">Happy<span>Paws</span></a>
+    <nav>
+      <a href="#shop">Shop</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="cart" href="#shop">Cart <span id="cartCount">0</span></a>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div>
+        <p class="eyebrow">PET CARE, MADE SIMPLE</p>
+        <h1>Better essentials for <span>happier pets.</span></h1>
+        <p>Shop carefully selected pet supplies for dogs, cats and everyday companions. Fast USA shipping and friendly support.</p>
+        <a class="button" href="#shop">Shop products</a>
+      </div>
+    </section>
+
+    <section id="shop" class="section">
+      <div class="heading"><p class="eyebrow">OUR SHOP</p><h2>Popular pet essentials</h2></div>
+      <div id="products" class="products"></div>
+    </section>
+
+    <section id="about" class="section split">
+      <div><p class="eyebrow">ABOUT US</p><h2>Built around better pet care.</h2></div>
+      <p>HappyPaws is a sample storefront architecture for a USA-focused pet company. Products, orders, shipping and payments can be connected to the company's real business accounts before launch.</p>
+    </section>
+
+    <section id="faq" class="section faq">
+      <p class="eyebrow">FAQ</p><h2>Questions, answered.</h2>
+      <details><summary>Where do you ship?</summary><p>We support shipping destinations across the United States. Final rates can be connected to the store's shipping provider.</p></details>
+      <details><summary>How can I pay?</summary><p>The checkout is intentionally not connected to a real payment account in this starter version. A verified business PayPal, Stripe or bank-payment integration can be added before launch.</p></details>
+      <details><summary>Can I contact support?</summary><p>Yes. Use the contact details configured by the company owner.</p></details>
+    </section>
+
+    <section id="contact" class="section contact"><p class="eyebrow">CONTACT</p><h2>Need help with an order?</h2><p>Email our support team and we'll get back to you.</p><a class="button" href="mailto:support@example.com">Email support</a></section>
+  </main>
+
+  <footer><p>© 2026 HappyPaws Pet Supply Co.</p><p>USA pet supplies &amp; essentials</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
